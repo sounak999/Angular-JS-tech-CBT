@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controllers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script type="text/javascript">
+        var app = angular.module("sample", []);
+
+        // this won't work
+        app.controller("emp", function (c) {
+            c.Name = "Sounak";
+        })
+        
+    </script>
+</head>
+<body ng-app="sample">
+    <div ng-controller="emp">
+        Hello {{Name}}!
+    </div>
+</body>
+</html>
