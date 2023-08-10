@@ -8,7 +8,7 @@
     <script type="text/javascript" src="./script3.js"></script>
 </head>
 <body ng-app="app">
-    <!-- Example of One-way Data Binding  -->
+    <!-- Example of One-Time and One-Way Data Binding  -->
     <div ng-controller="emp">
         <div>
             Value of a is {{::a}}, but we can change it to 
@@ -22,6 +22,7 @@
 
         Sum = {{sum}} <br>
 
+        <!-- Two Way-Data Binding -->
         <button ng-click="doSum()">Calculate</button>
     </div>
 </body>
