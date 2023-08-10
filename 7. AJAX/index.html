@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<!-- Try it locally -->
+<body ng-app="app">
+
+    <div ng-controller="emp">
+        <div>
+            Value of a is {{::a}}, but we can change it to 
+            <input type="text" ng-model="a"/>
+        </div>
+
+        <div>
+            Value of b is {{::b}}, but we can change it to 
+            <input type="text" ng-model="b"/>
+        </div>
+
+        Sum = {{sum}} <br>
+
+        <button ng-click="doSum()">Calculate</button>
+    </div>
+</body>
+</html>
