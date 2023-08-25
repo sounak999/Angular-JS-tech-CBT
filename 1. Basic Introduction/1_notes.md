@@ -1,5 +1,5 @@
 ## What is Angular JS
-1. A Client Side JS ramework
+1. A Client Side JS framework
 2. Developed and being maintained by Google
 3. Goals
     - Separate DOM manipulation from application logic.
